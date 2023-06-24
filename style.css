@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+
+
+body {
+  box-sizing: none;
+  margin: 0 auto;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:  hsl(216, 12%, 8%);
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(212, 19%, 15%);
+  border: transparent;
+  border-radius: 35px;
+  width: 500px;
+  height: 500px;
+
+}
+
+.star-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  hsl(216, 12%, 54%, 0.152);
+  width:60px;
+  height: 60px;
+  margin-top: 40px;
+  border-radius: 90%;
+  margin-left: 40px;
+  
+}
+
+.star-icon img {
+  height: 20px;
+ 
+}
+
+div h1, p {
+  margin-left: 40px;
+  color: white;
+  font-family: "Overpass", sans-serif;
+}
+
+div h1 {
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+div p{
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+  margin-top: -5px;
+  margin-right: 30px;
+  font-weight: 400;
+  color: hsl(217, 12%, 63%);
+}
+
+.num-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 90px;
+}
+
+.first-rating, .sec-rating, .third-rating, .four-rating, .fifth-rating {
+  display: flex;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(216, 12%, 54%, 0.152);
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+button {
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 50px;
+  border: transparent;
+  height: 50px;
+  width: 425px;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 20px;
+  color:white;
+  font-family: "Overpass", sans-serif;
+  letter-spacing: 4px;
+}
+
+.first-rating:hover, .sec-rating:hover, .third-rating:hover, .four-rating:hover, .fifth-rating:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.sec-rating:hover {
+  
+}
